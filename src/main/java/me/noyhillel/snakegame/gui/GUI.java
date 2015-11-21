@@ -12,7 +12,8 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.util.Random;
 
-@Data
+@Getter
+@Setter
 public final class GUI {
 
     public static JFrame jFrame;
