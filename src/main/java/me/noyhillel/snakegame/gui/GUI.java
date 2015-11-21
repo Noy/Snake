@@ -172,6 +172,7 @@ public final class GUI {
             switch(snakeGame.getHeaders()) {
                 case "Restart game":
                     snakeGame.restart();
+                    snakeGame.start();
                     break;
                 case "Back to main menu":
                     backToMainMenu();
