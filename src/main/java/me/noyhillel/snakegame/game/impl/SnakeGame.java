@@ -8,7 +8,8 @@ import me.noyhillel.snakegame.gui.GUI;
 
 import java.awt.*;
 
-@Data
+@Getter
+@Setter
 public final class SnakeGame implements Game {
 
     private boolean started = false;
