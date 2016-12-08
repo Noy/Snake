@@ -1,6 +1,7 @@
 package me.noyhillel.snakegame.gui;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 import me.noyhillel.snakegame.SnakeMain;
 import me.noyhillel.snakegame.game.Snake;
 import me.noyhillel.snakegame.game.SnakeBlocks;
